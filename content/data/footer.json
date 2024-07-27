@@ -5,14 +5,7 @@
         "type": "ImageBlock"
     },
     "text": "A description of your brand",
-    "socialLinks": [
-        {
-            "altText": "Twitter link",
-            "url": "https://twitter.com/netlify",
-            "icon": "twitter",
-            "type": "Social"
-        }
-    ],
+    "socialLinks": [],
     "legalLinks": [],
     "copyrightText": "© Copyright 2024 | Todos os direitos reservados.\n",
     "colors": "bg-dark-fg-light",
