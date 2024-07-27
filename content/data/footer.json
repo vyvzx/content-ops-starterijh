@@ -34,5 +34,15 @@
     "legalLinks": [],
     "copyrightText": "© Copyright 2024 | Todos os direitos reservados.\n",
     "colors": "bg-dark-fg-light",
-    "type": "Footer"
+    "type": "Footer",
+    "styles": {
+        "self": {
+            "padding": [
+                "pt-9",
+                "pl-9",
+                "pb-9",
+                "pr-9"
+            ]
+        }
+    }
 }
