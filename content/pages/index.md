@@ -409,10 +409,10 @@ sections:
           left to add, but when there is nothing left to take away.”
         tagline: Testimonial 1
         subtitle: 'Maria Walters, Company'
-        text: >-
+        text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          accusantium doloremque laudan![](/images/baixados%20\(5\).jpeg)ium,
+          totam rem aperiam, eaque ipsa quae. explicabo.
         image:
           url: /images/baixados (7).jpeg
           altText: Maria Walters
