@@ -4,14 +4,15 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Unblock your team boost your time to production
-      color: text-dark
+      text: 'Se torne um homem forte e raro, em meio aos comuns e fracos.'
+      color: text-light
       type: TitleBlock
     subtitle: Subtitle goes here
     text: >
       A Netlify Create website is a git repo that you own. Every code commit is
       instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      git commit, git ![](/images/Adobe_Express_20240727_0509110_1~2.jpg)and
+      collaboration just work.
     actions:
       - label: Get started
         altText: ''
@@ -32,16 +33,16 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: /images/main-hero.svg
+      url: /images/Adobe_Express_20240727_0509110_1~2.jpg
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
     badge:
       label: This is a badge
-      color: text-primary
+      color: text-light
       type: Badge
     elementId: ''
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         alignItems: center
@@ -157,7 +158,7 @@ sections:
       type: Badge
     elementId: ''
     variant: three-col-grid
-    colors: bg-neutral-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         padding:
@@ -192,7 +193,7 @@ sections:
         altText: Rangle logo
         type: ImageBlock
     motion: move-to-left
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         justifyContent: center
@@ -203,11 +204,11 @@ sections:
       - content/pages/blog/case-study-1.md
       - content/pages/blog/case-study-2.md
       - content/pages/blog/case-study-3.md
-    showThumbnail: true
+    showThumbnail: false
     showDate: true
-    showAuthor: true
+    showAuthor: false
     variant: three-col-grid
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         padding:
@@ -218,6 +219,7 @@ sections:
         justifyContent: center
     type: FeaturedPostsSection
     hoverEffect: move-up
+    showExcerpt: false
   - title: Divider
     colors: bg-light-fg-dark
     styles:
@@ -268,7 +270,7 @@ sections:
         self:
           textAlign: center
       type: Badge
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         flexDirection: col
@@ -312,7 +314,7 @@ sections:
           borderRadius: large
       type: VideoBlock
     elementId: null
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         flexDirection: row
@@ -349,7 +351,7 @@ sections:
       label: This is a badge
       color: text-primary
       type: Badge
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         alignItems: center
@@ -384,7 +386,7 @@ sections:
       label: This is a badge
       color: text-primary
       type: Badge
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         alignItems: center
@@ -401,27 +403,24 @@ sections:
           - pr-7
     type: DividerSection
   - type: CarouselSection
-    title: null
-    subtitle: What our customers say about us
     items:
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 1
-        subtitle: 'Maria Walters, Company'
+      - type: FeaturedItem
+        title: Social Media Management
+        tagline: Feature 1
+        subtitle: Increase your reach
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
           explicabo.
         image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
+          type: ImageBlock
+          url: /images/Adobe_Express_20240727_0509110_1~2.jpg
+          altText: Featured item
           styles:
             self:
-              borderRadius: full
-          type: ImageBlock
+              borderRadius: medium
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-dark-fg-light
         styles:
           self:
             padding:
@@ -433,9 +432,49 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
-        type: FeaturedItem
+      - type: FeaturedItem
+        title: Business Consulting
+        tagline: Feature 2
+        subtitle: Be in good company
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          type: ImageBlock
+          url: /images/Adobe_Express_20240727_0509110_1~2.jpg
+          altText: Business consulting
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-dark-fg-light
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+    variant: tabs-nav
+    colors: bg-dark-fg-light
+    styles:
+      self:
+        justifyContent: center
+      subtitle:
+        textAlign: center
+  - type: CarouselSection
+    title: null
+    subtitle: What our customers say about us
+    items:
       - title: >-
-          "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
+          "Design is a plan for arranging elements in such a way as best to
+          accomplish a particular purpose."
         tagline: Testimonial 2
         subtitle: 'John Doe, Company'
         text: >-
@@ -443,14 +482,14 @@ sections:
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
           explicabo.
         image:
-          url: /images/person-placeholder-light.png
+          url: /images/Adobe_Express_20240727_0509110_1~2.jpg
           altText: John Doe
           styles:
             self:
               borderRadius: full
           type: ImageBlock
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-dark-fg-light
         styles:
           self:
             padding:
@@ -464,7 +503,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
+          "Design is how it works, how it functions. Good design doesn't just
+          make a product aesthetically pleasing, it makes it a pleasure to use."
         tagline: Testimonial 3
         subtitle: 'Maria Walters, Company'
         text: >-
@@ -472,14 +512,14 @@ sections:
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
           explicabo.
         image:
-          url: /images/person-placeholder-light.png
+          url: /images/Adobe_Express_20240727_0509110_1~2.jpg
           altText: Maria Walters
           styles:
             self:
               borderRadius: full
           type: ImageBlock
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-dark-fg-light
         styles:
           self:
             padding:
@@ -502,14 +542,14 @@ sections:
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
           explicabo.
         image:
-          url: /images/person-placeholder-light.png
+          url: /images/Adobe_Express_20240727_0509110_1~2.jpg
           altText: Maria Walters
           styles:
             self:
               borderRadius: full
           type: ImageBlock
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-dark-fg-light
         styles:
           self:
             padding:
@@ -523,7 +563,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated."
+          "Design can be art. Design can be aesthetics. Design is so simple,
+          that's why it is so complicated."
         tagline: Testimonial 5
         subtitle: 'Jane Walters, Company'
         text: >-
@@ -552,7 +593,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          “Quote from some important person goes right here. I love using Netlify Create.”
+          “Quote from some important person goes right here. I love using
+          Netlify Create.”
         tagline: Testimonial 6
         subtitle: 'Jane Doe, Company'
         text: >-
@@ -582,7 +624,7 @@ sections:
         type: FeaturedItem
     elementId: null
     variant: next-prev-nav
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         justifyContent: center
@@ -646,8 +688,9 @@ sections:
       - title: Feature Item Three
         tagline: This is the tagline
         subtitle: This is the item subtitle
-        text: |
-          Learn from the tutorial and build your first awesome Netlify Create site.
+        text: >
+          Learn from the tutorial and build your first awesome Netlify Create
+          site.
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder image
@@ -667,7 +710,7 @@ sections:
             flexDirection: col
         type: FeaturedItem
     variant: three-col-grid
-    colors: bg-neutral-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         padding:
@@ -679,65 +722,6 @@ sections:
       subtitle:
         textAlign: center
     type: FeaturedItemsSection
-  - title:
-      text: Generic Section With A Form
-      color: text-dark
-      type: TitleBlock
-    subtitle: Section with a form subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    media:
-      fields:
-        - name: name
-          label: Name
-          hideLabel: true
-          placeholder: Your name
-          isRequired: true
-          width: full
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Your email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-        - name: message
-          label: Message
-          hideLabel: true
-          placeholder: Your message
-          width: full
-          type: TextareaFormControl
-      elementId: contact-form
-      styles:
-        self:
-          padding:
-            - pt-6
-            - pb-6
-            - pl-6
-            - pr-6
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: FormBlock
-      submitButton:
-        type: SubmitButtonFormControl
-        label: Submit
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: null
-    badge:
-      label: Contact Us
-      color: text-primary
-      type: Badge
-    colors: bg-light-fg-dark
-    type: GenericSection
 seo:
   metaTitle: Home - Demo site
   metaDescription: This demo site is built with Netlify Create.
