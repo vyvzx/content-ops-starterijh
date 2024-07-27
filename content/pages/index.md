@@ -413,13 +413,6 @@ sections:
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudan![](/images/baixados%20\(5\).jpeg)ium,
           totam rem aperiam, eaque ipsa quae. explicabo.
-        image:
-          url: /images/baixados (7).jpeg
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
         styles:
