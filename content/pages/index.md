@@ -33,7 +33,7 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: /images/main-hero.svg
+      url: /images/Adobe_Express_20240727_0509110_1~2.jpg
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
