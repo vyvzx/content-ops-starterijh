@@ -411,8 +411,9 @@ sections:
         subtitle: 'Maria Walters, Company'
         text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudan![](/images/baixados%20\(5\).jpeg)ium,
-          totam rem aperiam, eaque ipsa quae. explicabo.
+          accusantium
+
+           doloremque laudan![](/images/baixados%20\(5\).jpeg)ium, totam rem aperiam, eaque ipsa quae. explicabo.
         actions: []
         colors: bg-neutralAlt-fg-dark
         styles:
