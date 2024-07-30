@@ -486,7 +486,7 @@ sections:
         altText: Telus logo
         elementId: ''
       - type: ImageBlock
-        url: /images/contenful-logo.svg
+        url: /images/Adobe_Express_20240630_1635300_1.png
         altText: Contentful logo
         elementId: ''
       - type: ImageBlock
