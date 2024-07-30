@@ -366,6 +366,13 @@ sections:
         url: /images/Adobe_Express_20240727_2321500_1 (2).png
         altText: Contentful logo
         elementId: ''
+      - type: ImageBlock
+        url: /images/hero2.svg
+        altText: Image alt text placeholder
+        elementId: ''
+        styles:
+          self:
+            borderRadius: medium
     elementId: 1x
     motion: move-to-left
     colors: bg-dark-fg-light
