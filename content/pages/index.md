@@ -357,6 +357,8 @@ sections:
     styles:
       self:
         alignItems: center
+        padding:
+          - pt-4
     type: GenericSection
   - title: Divider
     colors: bg-dark-fg-light
