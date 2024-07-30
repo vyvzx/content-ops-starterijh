@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: 'Se torne um homem forte e raro, em meio aos comuns e fracos.'
+      text: Se torne um homem forte e raro.
       color: text-light
       type: TitleBlock
       styles:
@@ -192,7 +192,7 @@ sections:
       - url: /images/sanity-logo.svg
         altText: Sanity logo
         type: ImageBlock
-      - url: /images/rangle-logo.svg
+      - url: /images/Adobe_Express_20240727_2326190_1.png
         altText: Rangle logo
         type: ImageBlock
     motion: move-to-left
@@ -366,6 +366,27 @@ sections:
         url: /images/Adobe_Express_20240727_2321500_1 (2).png
         altText: Contentful logo
         elementId: ''
+      - type: ImageBlock
+        url: /images/hero2.svg
+        altText: Image alt text placeholder
+        elementId: ''
+        styles:
+          self:
+            borderRadius: medium
+      - type: ImageBlock
+        url: /images/hero2.svg
+        altText: Image alt text placeholder
+        elementId: ''
+        styles:
+          self:
+            borderRadius: medium
+      - type: ImageBlock
+        url: /images/hero2.svg
+        altText: Image alt text placeholder
+        elementId: ''
+        styles:
+          self:
+            borderRadius: medium
     elementId: 1x
     motion: move-to-left
     colors: bg-dark-fg-light
@@ -377,10 +398,10 @@ sections:
           - mb-0
           - mr-0
         padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
+          - pt-0
+          - pl-0
+          - pb-0
+          - pr-0
         justifyContent: center
       subtitle:
         textAlign: center
@@ -508,10 +529,10 @@ sections:
           - mb-0
           - mr-0
         padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
+          - pt-0
+          - pl-0
+          - pb-0
+          - pr-0
         justifyContent: center
       subtitle:
         textAlign: center
