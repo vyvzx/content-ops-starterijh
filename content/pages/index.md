@@ -499,7 +499,7 @@ sections:
         elementId: ''
     elementId: ''
     motion: move-to-left
-    colors: bg-neutral-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         margin:
