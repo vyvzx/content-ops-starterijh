@@ -788,7 +788,7 @@ sections:
             icon: arrowRight
             iconPosition: right
             style: secondary
-        colors: bg-dark-fg-light
+        colors: bg-light-fg-dark
         styles:
           self:
             padding:
