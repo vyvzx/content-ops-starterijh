@@ -7,6 +7,10 @@ sections:
       text: 'Se torne um homem forte e raro, em meio aos comuns e fracos.'
       color: text-light
       type: TitleBlock
+      styles:
+        self:
+          fontWeight: 400
+          textAlign: left
     subtitle: Subtitle goes here
     text: >
       A Netlify Create website is a git repo that you own. Every code commit is
@@ -33,7 +37,6 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: /images/Adobe_Express_20240727_0509110_1~2.jpg
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
@@ -48,7 +51,7 @@ sections:
         alignItems: center
         flexDirection: row
         padding:
-          - pt-16
+          - pt-10
           - pl-16
           - pb-16
           - pr-16
@@ -221,7 +224,7 @@ sections:
     hoverEffect: move-up
     showExcerpt: false
   - title: Divider
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         padding:
@@ -278,47 +281,143 @@ sections:
       subtitle:
         textAlign: center
     type: GenericSection
+  - type: CarouselSection
+    items:
+      - type: FeaturedItem
+        title: Social Media Management
+        tagline: Feature 1
+        subtitle: Increase your reach
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          type: ImageBlock
+          url: /images/img-placeholder.svg
+          altText: Featured item
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+      - type: FeaturedItem
+        title: Business Consulting
+        tagline: Feature 2
+        subtitle: Be in good company
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          type: ImageBlock
+          url: /images/img-placeholder.svg
+          altText: Business consulting
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-dark-fg-light
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+    variant: tabs-nav
+    colors: bg-dark-fg-light
+    styles:
+      self:
+        justifyContent: center
+      subtitle:
+        textAlign: center
+  - type: ImageGallerySection
+    subtitle: Seu guerreiro interior antes
+    images:
+      - type: ImageBlock
+        url: /images/Adobe_Express_20240727_2320480_1.png
+        altText: Empathy logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/Adobe_Express_20240727_2322430_1 (2).png
+        altText: Wellster logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/Adobe_Express_20240727_2320480_1 (2).png
+        altText: Vise logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/Adobe_Express_20240727_2321500_1 (2).png
+        altText: Contentful logo
+        elementId: ''
+    elementId: 1x
+    motion: move-to-left
+    colors: bg-dark-fg-light
+    styles:
+      self:
+        margin:
+          - mt-0
+          - ml-0
+          - mb-0
+          - mr-0
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+        justifyContent: center
+      subtitle:
+        textAlign: center
   - type: GenericSection
-    title:
-      text: Generic section with a video
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
     subtitle: Section with a video subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    text: >
+
+
+      Aprendiz de Guerreiro com Baixa Testosterona.
+
+
+      Você é um jovem aprendiz de guerreiro, cheio de potencial, mas preso nas
+      armadilhas
+
+
+      do sistema que diminuem sua testosterona e masculinidade. Influências
+      externas e hábitos prejudiciais
+
+
+      enfraquecem sua força física e mental, deixando-o com baixa testosterona,
+      o que impacta diretamente
+
+
+      sua confiança, disciplina e vigor. Você sente que está perdendo a essência
+      de sua masculinidade, caindo
+
+
+      em uma rotina de frustração e impotência
     actions: []
-    media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      autoplay: true
-      loop: true
-      muted: true
-      controls: false
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: VideoBlock
     elementId: null
     colors: bg-dark-fg-light
     styles:
       self:
         flexDirection: row
         justifyContent: center
+        padding:
+          - pt-2
       subtitle:
         textAlign: left
   - title:
@@ -344,56 +443,21 @@ sections:
         style: primary
         type: Link
     media:
-      url: /images/hero2.svg
       altText: Fun feature preview
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: This is a bagdge
       color: text-primary
       type: Badge
     colors: bg-dark-fg-light
     styles:
       self:
         alignItems: center
-    type: GenericSection
-  - title:
-      text: Business Consulting
-      color: text-dark
-      type: TitleBlock
-    subtitle: Be in good company
-    text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
-    actions:
-      - label: Get started
-        url: /
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        type: Button
-      - label: See Tutorials
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
-    media:
-      url: /images/hero3.svg
-      altText: Dope design preview
-      type: ImageBlock
-    badge:
-      label: This is a badge
-      color: text-primary
-      type: Badge
-    colors: bg-dark-fg-light
-    styles:
-      self:
-        alignItems: center
-        flexDirection: row-reverse
+        padding:
+          - pt-4
     type: GenericSection
   - title: Divider
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         padding:
@@ -402,11 +466,68 @@ sections:
           - pb-7
           - pr-7
     type: DividerSection
+  - type: ImageGallerySection
+    subtitle: ''
+    images:
+      - type: ImageBlock
+        url: /images/Adobe_Express_20240727_2327410_1 (2).png
+        altText: Empathy logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/Adobe_Express_20240727_2326190_1 (2).png
+        altText: Wellster logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/Adobe_Express_20240727_2325310_1 (2).png
+        altText: Vise logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/Adobe_Express_20240727_2329240_1 (2).png
+        altText: Telus logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/contenful-logo.svg
+        altText: Contentful logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/sanity-logo.svg
+        altText: Sanity logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/rangle-logo.svg
+        altText: Rangle logo
+        elementId: ''
+    elementId: ''
+    motion: move-to-left
+    colors: bg-dark-fg-light
+    styles:
+      self:
+        margin:
+          - mt-0
+          - ml-0
+          - mb-0
+          - mr-0
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+        justifyContent: center
+      subtitle:
+        textAlign: center
+    title:
+      type: TitleBlock
+      text: Seu guerreiro interior depois
+      color: text-light
+      styles:
+        self:
+          fontWeight: 400
+          textAlign: left
   - type: CarouselSection
     items:
       - type: FeaturedItem
         title: Social Media Management
-        tagline: Feature 1
+        tagline: Modulo 1
         subtitle: Increase your reach
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -434,7 +555,7 @@ sections:
             justifyContent: center
       - type: FeaturedItem
         title: Business Consulting
-        tagline: Feature 2
+        tagline: Modulo 2
         subtitle: Be in good company
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -651,7 +772,7 @@ sections:
             self:
               borderRadius: x-large
           type: ImageBlock
-        colors: bg-light-fg-dark
+        colors: bg-neutralAlt-fg-dark
         styles:
           self:
             padding:
@@ -674,7 +795,7 @@ sections:
             self:
               borderRadius: x-large
           type: ImageBlock
-        colors: bg-light-fg-dark
+        colors: bg-neutralAlt-fg-dark
         styles:
           self:
             padding:
@@ -698,7 +819,7 @@ sections:
             self:
               borderRadius: x-large
           type: ImageBlock
-        colors: bg-light-fg-dark
+        colors: bg-neutralAlt-fg-dark
         styles:
           self:
             padding:
@@ -722,10 +843,185 @@ sections:
       subtitle:
         textAlign: center
     type: FeaturedItemsSection
+  - type: PricingSection
+    title:
+      type: TitleBlock
+      text: Flexible Pricing
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+    subtitle: This is the subtitle for the pricing section
+    plans:
+      - type: PricingPlan
+        title: Developers
+        price: Free
+        details: No credit card required
+        description: >-
+          Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
+          accusantium doloremque.
+        features:
+          - Feature one
+          - Feature two
+          - Feature three
+          - Feature four
+        image:
+          type: ImageBlock
+          url: /images/abstract-feature1.svg
+          altText: Pricing plan 1
+        actions:
+          - type: Button
+            label: Try for free
+            url: /
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pb-10
+              - pl-6
+              - pr-6
+            borderRadius: large
+      - type: PricingPlan
+        title: Professional
+        price: $99
+        details: per month
+        description: >-
+          Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
+          accusantium doloremque.
+        features:
+          - Feature one
+          - Feature two
+          - Feature three
+          - ''
+          - Feature four
+        image:
+          type: ImageBlock
+          url: /images/abstract-feature2.svg
+          altText: Pricing plan 2
+        actions:
+          - type: Button
+            label: Try for free
+            url: /
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pb-10
+              - pl-6
+              - pr-6
+            borderRadius: large
+    colors: bg-dark-fg-light
+    styles:
+      self:
+        justifyContent: center
+        padding:
+          - pt-1
+      subtitle:
+        textAlign: center
+  - type: FeaturedItemsSection
+    title:
+      type: TitleBlock
+      text: Open positions
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+    subtitle: Subtitle goes here
+    items:
+      - type: FeaturedItem
+        title: Account Executive
+        subtitle: Sales
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            textAlign: left
+            borderRadius: x-large
+            flexDirection: row
+            justifyContent: center
+      - type: FeaturedItem
+        title: 'Open Source '
+        subtitle: Marketing
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            textAlign: left
+            borderRadius: x-large
+            flexDirection: row
+            justifyContent: center
+      - type: FeaturedItem
+        title: Senior Software
+        subtitle: Engineering
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: row-reverse
+            borderColor: border-dark
+            borderWidth: 0
+            borderStyle: solid
+            justifyContent: center
+    actions:
+      - type: Button
+        label: Apply now
+        url: /
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+    variant: toggle-list
+    colors: bg-dark-fg-light
+    styles:
+      self:
+        padding:
+          - pb-4
+          - pt-8
+          - pl-3
+          - pr-3
+        justifyContent: center
+      subtitle:
+        textAlign: center
 seo:
   metaTitle: Home - Demo site
   metaDescription: This demo site is built with Netlify Create.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
+isDraft: false
 ---
