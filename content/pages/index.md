@@ -517,7 +517,7 @@ sections:
         textAlign: center
     title:
       type: TitleBlock
-      text: Voce depois
+      text: Seu guerreiro interior depois
       color: text-light
   - type: CarouselSection
     items:
