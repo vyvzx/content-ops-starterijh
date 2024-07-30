@@ -779,7 +779,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
-      url: /images/AirBrush_20240730013411.jpg
+      url: /images/photo_2024-07-30_02-42-24.jpg
   - title:
       text: List of features here
       color: text-primary
