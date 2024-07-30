@@ -259,32 +259,7 @@ sections:
           - pb-7
           - pr-7
     type: DividerSection
-    elementId: >-
-      <!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta
-      name="viewport" content="width=device-width, initial-scale=1.0">   
-      <style>        /* Estilos para o elemento com o ID 'background-element'
-      */        #background-element {            width: 300px; /* Defina a
-      largura desejada */            height: 500px; /* Defina a altura desejada
-      */            background-image:
-      url('path/para/sua/imagem/border_image.png');            background-size:
-      cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento
-      */            background-repeat: no-repeat; /* Evita que a imagem se
-      repita */            background-position: center; /* Centraliza a imagem
-      */            color: white; /* Define a cor do texto */           
-      padding: 20px; /* Espaçamento interno */            box-sizing:
-      border-box; /* Inclui o padding no tamanho total do elemento */           
-      font-family: Arial, sans-serif; /* Fonte do texto */        }        /*
-      Estilo para o título */        #background-element h1 {           
-      margin-top: 0;        }        /* Estilo para o botão */       
-      #background-element a.button {            display:
-      inline-block;            margin-top: 20px;            padding: 10px
-      20px;            background-color: #007bff;            color:
-      white;            text-decoration: none;            border-radius:
-      5px;            font-weight: bold;        }    </style></head><body>   
-      <!-- Elemento que usará a imagem como plano de fundo -->    <div
-      id="background-element">        <h1>Bem-vindo!</h1>        <p>Este é um
-      exemplo de conteúdo dentro de um elemento com imagem de fundo.</p>       
-      <a href="#" class="button">Saiba mais</a>    </div></body></html>
+    elementId: ''
   - title:
       text: Grow your business 10x faster
       color: text-dark
