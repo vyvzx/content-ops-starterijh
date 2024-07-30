@@ -192,7 +192,7 @@ sections:
       - url: /images/sanity-logo.svg
         altText: Sanity logo
         type: ImageBlock
-      - url: /images/rangle-logo.svg
+      - url: /images/Adobe_Express_20240727_2326190_1.png
         altText: Rangle logo
         type: ImageBlock
     motion: move-to-left
