@@ -291,14 +291,15 @@ sections:
       type: TitleBlock
     subtitle: Section with a video subtitle
     text: >
-      ![](/images/Adobe_Express_20240727_2320480_1.png)Aenean eros ipsum,
-      interdum quis dignissim non, sollicitudin vitae nisl.
+      ![](/images/Adobe_Express_20240727_2320480_1.png)
 
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+       Aprendiz de Guerreiro com Baixa Testosterona
+      Você é um jovem aprendiz de guerreiro, cheio de potencial, mas preso nas
+      armadilhas do sistema que diminuem sua testosterona e masculinidade.
+      Influências externas e hábitos prejudiciais enfraquecem sua força física e
+      mental, deixando-o com baixa testosterona, o que impacta diretamente sua
+      confiança, disciplina e vigor. Você sente que está perdendo a essência de
+      sua masculinidade, caindo em uma rotina de frustração e impotência
     actions: []
     elementId: null
     colors: bg-dark-fg-light
