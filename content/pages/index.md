@@ -879,6 +879,7 @@ sections:
             borderColor: border-dark
             borderWidth: 0
             borderStyle: solid
+            justifyContent: center
     actions:
       - type: Button
         label: Apply now
