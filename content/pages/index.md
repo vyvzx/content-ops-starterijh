@@ -672,7 +672,7 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
-      - title: “A designer knows he has achieved perfection not when there
+      - title: “A designer knows he has achieved perfection
         tagline: Testimonial 4
         subtitle: 'Maria Walters, Company'
         text: >-
