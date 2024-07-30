@@ -617,10 +617,9 @@ sections:
       - title: '"Design is a plan for arranging.'
         tagline: Testimonial 2
         subtitle: 'John Doe, Company'
-        text: >-
+        text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          accusantium.
         image:
           url: /images/Adobe_Express_20240727_0509110_1~2.jpg
           altText: John Doe
