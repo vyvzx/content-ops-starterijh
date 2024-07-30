@@ -486,11 +486,11 @@ sections:
         altText: Telus logo
         elementId: ''
       - type: ImageBlock
-        url: /images/contenful-logo.svg
+        url: /images/Adobe_Express_20240630_1635300_1.png
         altText: Contentful logo
         elementId: ''
       - type: ImageBlock
-        url: /images/sanity-logo.svg
+        url: /images/Adobe_Express_20240727_0509110_1~2.jpg
         altText: Sanity logo
         elementId: ''
       - type: ImageBlock
@@ -541,7 +541,7 @@ sections:
             self:
               borderRadius: medium
         actions: []
-        colors: bg-dark-fg-light
+        colors: bg-neutralAlt-fg-dark
         styles:
           self:
             padding:
@@ -555,7 +555,7 @@ sections:
             justifyContent: center
       - type: FeaturedItem
         title: Business Consulting
-        tagline: Modulo 2
+        tagline: Modulo 2.
         subtitle: Be in good company
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -570,7 +570,7 @@ sections:
             self:
               borderRadius: medium
         actions: []
-        colors: bg-dark-fg-light
+        colors: bg-neutral-fg-dark
         styles:
           self:
             padding:
