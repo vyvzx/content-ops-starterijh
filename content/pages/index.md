@@ -224,7 +224,7 @@ sections:
     hoverEffect: move-up
     showExcerpt: false
   - title: Divider
-    colors: bg-dark-fg-light
+    colors: bg-neutral-fg-dark
     styles:
       self:
         padding:
