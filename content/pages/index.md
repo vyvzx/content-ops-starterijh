@@ -517,7 +517,7 @@ sections:
         textAlign: center
     title:
       type: TitleBlock
-      text: This Is A Big Headline
+      text: Voce depois
       color: text-dark
   - type: CarouselSection
     items:
