@@ -875,7 +875,7 @@ sections:
               - pb-8
               - pr-8
             borderRadius: x-large
-            flexDirection: row-reverse
+            flexDirection: row
             borderColor: border-dark
             borderWidth: 0
             borderStyle: solid
