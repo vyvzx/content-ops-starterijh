@@ -283,7 +283,7 @@ sections:
     type: GenericSection
   - type: GenericSection
     title:
-      text: Genheric section with a video
+      text: Genheertreeeric section with a video
       color: text-light
       styles:
         self:
