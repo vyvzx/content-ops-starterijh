@@ -732,7 +732,7 @@ sections:
           accusantium doloremque.
 
         image:
-          url: /images/img-placeholder-dark.png
+          url: /images/Adobe_Express_20240727_2327410_1 (2).png
           altText: Jane Doe
           styles:
             self:
