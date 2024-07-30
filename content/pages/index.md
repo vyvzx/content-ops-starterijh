@@ -521,7 +521,7 @@ sections:
       color: text-light
       styles:
         self:
-          fontWeight: 700
+          fontWeight: 400
           textAlign: left
   - type: CarouselSection
     items:
