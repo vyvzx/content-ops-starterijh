@@ -877,6 +877,7 @@ sections:
             borderRadius: small
             flexDirection: row
             borderColor: border-dark
+            borderWidth: 2
     actions:
       - type: Button
         label: Apply now
