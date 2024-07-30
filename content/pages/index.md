@@ -732,7 +732,8 @@ sections:
           accusantium doloremque.
 
         image:
-          url: /images/Adobe_Express_20240727_2327410_1 (2).png
+          url: >-
+            /images/yasukexbt_depiction_of_man_conquering_the_world_roman_god_atlas_b92ccf9c-f179-46d1-b777-24dc255f77cc.jpeg
           altText: Jane Doe
           styles:
             self:
