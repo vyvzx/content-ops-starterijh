@@ -359,7 +359,7 @@ sections:
         altText: Wellster logo
         elementId: ''
       - type: ImageBlock
-        url: /images/vise-logo.svg
+        url: /images/Adobe_Express_20240727_2320480_1 (2).png
         altText: Vise logo
         elementId: ''
       - type: ImageBlock
