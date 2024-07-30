@@ -892,7 +892,7 @@ sections:
     styles:
       self:
         padding:
-          - pb-40
+          - pb-8
           - pt-8
           - pl-3
           - pr-3
