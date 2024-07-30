@@ -519,6 +519,9 @@ sections:
       type: TitleBlock
       text: Seu guerreiro interior depois
       color: text-light
+      styles:
+        self:
+          fontWeight: 700
   - type: CarouselSection
     items:
       - type: FeaturedItem
