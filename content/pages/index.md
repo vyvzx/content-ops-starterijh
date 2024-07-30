@@ -351,7 +351,7 @@ sections:
     subtitle: Seu guerreiro interior antes
     images:
       - type: ImageBlock
-        url: /images/empathy-logo.svg
+        url: /images/Adobe_Express_20240727_2320480_1.png
         altText: Empathy logo
         elementId: ''
       - type: ImageBlock
