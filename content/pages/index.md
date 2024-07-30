@@ -380,7 +380,7 @@ sections:
         elementId: ''
     elementId: ''
     motion: move-to-left
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         margin:
