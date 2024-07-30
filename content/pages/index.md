@@ -518,7 +518,7 @@ sections:
     title:
       type: TitleBlock
       text: Voce depois
-      color: text-dark
+      color: text-light
   - type: CarouselSection
     items:
       - type: FeaturedItem
