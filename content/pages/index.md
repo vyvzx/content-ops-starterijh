@@ -366,10 +366,6 @@ sections:
         url: /images/Adobe_Express_20240727_2321500_1 (2).png
         altText: Contentful logo
         elementId: ''
-      - type: ImageBlock
-        url: /images/rangle-logo.svg
-        altText: Rangle logo
-        elementId: ''
     elementId: ''
     motion: move-to-left
     colors: bg-dark-fg-light
