@@ -482,7 +482,7 @@ sections:
         altText: Vise logo
         elementId: ''
       - type: ImageBlock
-        url: /images/telus-logo.svg
+        url: /images/Adobe_Express_20240727_2329240_1 (2).png
         altText: Telus logo
         elementId: ''
       - type: ImageBlock
