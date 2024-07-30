@@ -348,7 +348,7 @@ sections:
       subtitle:
         textAlign: center
   - type: ImageGallerySection
-    subtitle: Our customers
+    subtitle: Seu guerreiro interior antes
     images:
       - type: ImageBlock
         url: /images/empathy-logo.svg
