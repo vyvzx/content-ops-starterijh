@@ -753,7 +753,10 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
-    elementId: null
+    elementId: >-
+      #elemento-id {    background-image:
+      url('path/para/sua/imagem/border_image.png');    background-size: cover;
+      /* ou outro valor dependendo do efeito desejado */}
     variant: next-prev-nav-multiple
     colors: bg-dark-fg-light
     styles:
