@@ -363,10 +363,6 @@ sections:
         altText: Vise logo
         elementId: ''
       - type: ImageBlock
-        url: /images/Adobe_Express_20240727_2320480_1.png
-        altText: Telus logo
-        elementId: ''
-      - type: ImageBlock
         url: /images/Adobe_Express_20240727_2321500_1 (2).png
         altText: Contentful logo
         elementId: ''
