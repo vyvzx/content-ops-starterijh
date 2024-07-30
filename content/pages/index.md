@@ -443,7 +443,6 @@ sections:
         style: primary
         type: Link
     media:
-      url: /images/Adobe_Express_20240727_2329240_1.png
       altText: Fun feature preview
       type: ImageBlock
     badge:
