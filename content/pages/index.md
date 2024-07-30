@@ -284,7 +284,7 @@ sections:
   - type: GenericSection
     title:
       text: Genheric section with a video
-      color: text-dark
+      color: text-light
       styles:
         self:
           textAlign: left
