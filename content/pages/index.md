@@ -522,6 +522,7 @@ sections:
       styles:
         self:
           fontWeight: 700
+          textAlign: left
   - type: CarouselSection
     items:
       - type: FeaturedItem
