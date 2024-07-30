@@ -779,7 +779,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
-      url: /images/Adobe_Express_20240730_0118240_1.png
+      url: /images/AirBrush_20240730013411.jpg
   - title:
       text: List of features here
       color: text-primary
