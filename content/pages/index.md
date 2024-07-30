@@ -702,7 +702,7 @@ sections:
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium bo.
         image:
-          url: /images/Adobe_Express_20240727_2326190_1 (2).png
+          url: /images/baixados (8).jpeg
           altText: Maria Walters
           styles:
             self:
