@@ -366,7 +366,7 @@ sections:
         url: /images/Adobe_Express_20240727_2321500_1 (2).png
         altText: Contentful logo
         elementId: ''
-    elementId: ''
+    elementId: 1x
     motion: move-to-left
     colors: bg-dark-fg-light
     styles:
