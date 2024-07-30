@@ -874,7 +874,7 @@ sections:
               - pl-8
               - pb-8
               - pr-8
-            borderRadius: small
+            borderRadius: x-large
             flexDirection: row
             borderColor: border-dark
             borderWidth: 0
