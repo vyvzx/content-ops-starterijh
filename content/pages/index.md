@@ -490,7 +490,7 @@ sections:
         altText: Contentful logo
         elementId: ''
       - type: ImageBlock
-        url: /images/sanity-logo.svg
+        url: /images/Adobe_Express_20240727_0509110_1~2.jpg
         altText: Sanity logo
         elementId: ''
       - type: ImageBlock
