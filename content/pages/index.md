@@ -614,9 +614,7 @@ sections:
     title: null
     subtitle: What our customers say about us
     items:
-      - title: >-
-          "Design is a plan for arranging elements in such a way as best to
-          accomplish a particular purpose."
+      - title: '"Design is a plan for arranging.'
         tagline: Testimonial 2
         subtitle: 'John Doe, Company'
         text: >-
