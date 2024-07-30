@@ -282,13 +282,6 @@ sections:
         textAlign: center
     type: GenericSection
   - type: GenericSection
-    title:
-      text: Genheertreeeric section with a video
-      color: text-light
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
     subtitle: Section with a video subtitle
     text: >
 
