@@ -874,7 +874,7 @@ sections:
               - pl-8
               - pb-8
               - pr-8
-            borderRadius: x-large
+            borderRadius: small
             flexDirection: row
     actions:
       - type: Button
