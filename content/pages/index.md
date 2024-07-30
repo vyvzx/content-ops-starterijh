@@ -367,7 +367,7 @@ sections:
         altText: Contentful logo
         elementId: ''
     elementId: ''
-    motion: move-to-left
+    motion: static
     colors: bg-dark-fg-light
     styles:
       self:
