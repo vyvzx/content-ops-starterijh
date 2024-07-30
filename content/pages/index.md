@@ -470,7 +470,7 @@ sections:
     subtitle: Our customers
     images:
       - type: ImageBlock
-        url: /images/empathy-logo.svg
+        url: /images/Adobe_Express_20240727_2327410_1 (2).png
         altText: Empathy logo
         elementId: ''
       - type: ImageBlock
