@@ -647,10 +647,9 @@ sections:
       - title: '"Design is how it works, how it functions.'
         tagline: Testimonial 3
         subtitle: 'Maria Walters, Company'
-        text: >-
+        text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          accusantium doloremque laudantium.
         image:
           url: /images/Adobe_Express_20240727_0509110_1~2.jpg
           altText: Maria Walters
