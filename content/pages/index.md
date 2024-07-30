@@ -614,15 +614,12 @@ sections:
     title: null
     subtitle: What our customers say about us
     items:
-      - title: >-
-          "Design is a plan for arranging elements in such a way as best to
-          accomplish a particular purpose."
+      - title: '"Design is a plan for arranging.'
         tagline: Testimonial 2
         subtitle: 'John Doe, Company'
-        text: >-
+        text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          accusantium.
         image:
           url: /images/Adobe_Express_20240727_0509110_1~2.jpg
           altText: John Doe
@@ -644,15 +641,12 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
-      - title: >-
-          "Design is how it works, how it functions. Good design doesn't just
-          make a product aesthetically pleasing, it makes it a pleasure to use."
+      - title: '"Design is how it works, how it functions.'
         tagline: Testimonial 3
         subtitle: 'Maria Walters, Company'
-        text: >-
+        text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          accusantium doloremque laudantium.
         image:
           url: /images/Adobe_Express_20240727_0509110_1~2.jpg
           altText: Maria Walters
@@ -674,15 +668,12 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
+      - title: “A designer knows he has achieved.
         tagline: Testimonial 4
         subtitle: 'Maria Walters, Company'
-        text: >-
+        text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          accusantium doloremque laudantium,.
         image:
           url: /images/Adobe_Express_20240727_0509110_1~2.jpg
           altText: Maria Walters
@@ -704,24 +695,21 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
-      - title: >-
-          "Design can be art. Design can be aesthetics. Design is so simple,
-          that's why it is so complicated."
+      - title: '"Design can be art. Design can be'
         tagline: Testimonial 5
         subtitle: 'Jane Walters, Company'
-        text: >-
+        text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          accusantium bo.
         image:
-          url: /images/person-placeholder-light.png
+          url: /images/baixados (8).jpeg
           altText: Maria Walters
           styles:
             self:
               borderRadius: full
           type: ImageBlock
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-dark-fg-light
         styles:
           self:
             padding:
@@ -739,12 +727,13 @@ sections:
           Netlify Create.”
         tagline: Testimonial 6
         subtitle: 'Jane Doe, Company'
-        text: >-
+        text: >+
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          accusantium doloremque.
+
         image:
-          url: /images/img-placeholder-dark.png
+          url: >-
+            /images/yasukexbt_depiction_of_man_conquering_the_world_roman_god_atlas_b92ccf9c-f179-46d1-b777-24dc255f77cc.jpeg
           altText: Jane Doe
           styles:
             self:
@@ -765,7 +754,7 @@ sections:
             justifyContent: center
         type: FeaturedItem
     elementId: null
-    variant: next-prev-nav
+    variant: next-prev-nav-multiple
     colors: bg-dark-fg-light
     styles:
       self:
