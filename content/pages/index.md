@@ -893,7 +893,7 @@ sections:
       self:
         padding:
           - pb-40
-          - pt-16
+          - pt-8
           - pl-3
           - pr-3
         justifyContent: center
