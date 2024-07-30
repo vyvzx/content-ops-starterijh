@@ -367,7 +367,7 @@ sections:
         altText: Telus logo
         elementId: ''
       - type: ImageBlock
-        url: /images/Adobe_Express_20240727_2325310_1.png
+        url: /images/Adobe_Express_20240727_2326190_1.png
         altText: Contentful logo
         elementId: ''
       - type: ImageBlock
