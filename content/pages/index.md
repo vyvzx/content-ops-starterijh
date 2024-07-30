@@ -675,8 +675,9 @@ sections:
       - title: “A designer knows he has achieved perfection
         tagline: Testimonial 4
         subtitle: 'Maria Walters, Company'
-        text: >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        text: |
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+
           accusantium doloremque laudantium,.
         image:
           url: /images/Adobe_Express_20240727_0509110_1~2.jpg
