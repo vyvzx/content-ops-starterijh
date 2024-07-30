@@ -290,10 +290,14 @@ sections:
           textAlign: left
       type: TitleBlock
     subtitle: Section with a video subtitle
-    text: |
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
+    text: >
+      ![](/images/Adobe_Express_20240727_2320480_1.png)Aenean eros ipsum,
+      interdum quis dignissim non, sollicitudin vitae nisl.
+
       Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
+
       erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
+
       vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
     actions: []
     elementId: null
