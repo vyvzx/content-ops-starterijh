@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: 'Se torne um homem forte e raro, em meio aos comuns e fracos.'
+      text: Se torne um homem forte e raro.
       color: text-light
       type: TitleBlock
       styles:
