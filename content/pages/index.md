@@ -878,7 +878,7 @@ sections:
             flexDirection: row
             borderColor: border-dark
             borderWidth: 0
-            borderStyle: dotted
+            borderStyle: dashed
     actions:
       - type: Button
         label: Apply now
