@@ -290,20 +290,29 @@ sections:
           textAlign: left
       type: TitleBlock
     subtitle: Section with a video subtitle
-    text: |
-      ![](/images/Adobe_Express_20240727_2320480_1.png)
+    text: >
 
-        Aprendiz de Guerreiro com Baixa Testosterona.
 
-        Você é um jovem aprendiz de guerreiro, cheio de potencial, mas preso nas armadilhas
+      Aprendiz de Guerreiro com Baixa Testosterona.
 
-        do sistema que diminuem sua testosterona e masculinidade. Influências externas e hábitos prejudiciais
 
-        enfraquecem sua força física e mental, deixando-o com baixa testosterona, o que impacta diretamente
+      Você é um jovem aprendiz de guerreiro, cheio de potencial, mas preso nas
+      armadilhas
 
-        sua confiança, disciplina e vigor. Você sente que está perdendo a essência de sua masculinidade, caindo
 
-        em uma rotina de frustração e impotência
+      do sistema que diminuem sua testosterona e masculinidade. Influências
+      externas e hábitos prejudiciais
+
+
+      enfraquecem sua força física e mental, deixando-o com baixa testosterona,
+      o que impacta diretamente
+
+
+      sua confiança, disciplina e vigor. Você sente que está perdendo a essência
+      de sua masculinidade, caindo
+
+
+      em uma rotina de frustração e impotência
     actions: []
     elementId: null
     colors: bg-dark-fg-light
