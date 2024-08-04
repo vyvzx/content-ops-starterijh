@@ -583,9 +583,7 @@ sections:
           explicabo.
         image:
           type: ImageBlock
-          url: >-
-            /images/Stoic Marble Statue_ Strength and Resilience in 8K Wallpaper
-            for iPhone & Android (2).jpeg
+          url: /images/Spartan Warrior Unyielding Valor.jpeg
           altText: Featured item
           styles:
             self:
