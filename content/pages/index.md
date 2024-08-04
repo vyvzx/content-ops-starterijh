@@ -634,46 +634,6 @@ sections:
             justifyContent: center
       - type: FeaturedItem
         title: Business Consulting
-        tagline: modulo 2
-        subtitle: Be in good company
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          type: ImageBlock
-          url: >-
-            /images/'Marcus Aurelius Sculpture' Metal Poster by Vars _
-            Displate.jpeg
-          altText: Business consulting
-          elementId: ''
-          styles:
-            self:
-              borderRadius: medium
-        actions:
-          - type: Button
-            label: Get started
-            altText: ''
-            url: /
-            showIcon: false
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
-        colors: bg-dark-fg-light
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-      - type: FeaturedItem
-        title: Business Consulting
         tagline: Feature 2
         subtitle: Be in good company
         text: >-
