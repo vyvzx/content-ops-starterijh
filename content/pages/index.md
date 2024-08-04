@@ -575,7 +575,7 @@ sections:
     items:
       - type: FeaturedItem
         title: Business Consulting
-        tagline: Feature 2
+        tagline: Arraste para o lados os modulos.
         subtitle: Be in good company
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
