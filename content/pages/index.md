@@ -148,7 +148,7 @@ sections:
         url: /
         showIcon: false
         icon: chevronBigLeft
-        iconPosition: right
+        iconPosition: left
         style: primary
         elementId: ''
         type: Button
