@@ -680,7 +680,7 @@ sections:
           explicabo.
         image:
           type: ImageBlock
-          url: /images/img-placeholder.svg
+          url: /images/Marcus Aurelius Phone Wallpaper.jpeg
           altText: Business consulting
           elementId: ''
           styles:
