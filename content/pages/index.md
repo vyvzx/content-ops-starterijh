@@ -147,7 +147,7 @@ sections:
         altText: ''
         url: /
         showIcon: false
-        icon: ''
+        icon: chevronDown
         iconPosition: right
         style: primary
         elementId: ''
