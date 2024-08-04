@@ -710,6 +710,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/photo_2024-08-04_02-38-36.jpg
   - type: CarouselSection
     title: null
     subtitle: What our customers say about us
