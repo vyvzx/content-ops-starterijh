@@ -574,7 +574,7 @@ sections:
   - type: CarouselSection
     items:
       - type: FeaturedItem
-        title: Social Media Management
+        title: O cara do momento
         tagline: Arraste para o lado
         subtitle: Increase your reach
         text: >-
