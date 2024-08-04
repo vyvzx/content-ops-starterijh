@@ -640,7 +640,9 @@ sections:
           explicabo.
         image:
           type: ImageBlock
-          url: /images/img-placeholder.svg
+          url: >-
+            /images/'Marcus Aurelius Sculpture' Metal Poster by Vars _
+            Displate.jpeg
           altText: Business consulting
           elementId: ''
           styles:
