@@ -680,7 +680,9 @@ sections:
           explicabo.
         image:
           type: ImageBlock
-          url: /images/Marcus Aurelius Phone Wallpaper.jpeg
+          url: >-
+            /images/Stoic Marble Statue_ Strength and Resilience in 8K Wallpaper
+            for iPhone & Android (1).jpeg
           altText: Business consulting
           elementId: ''
           styles:
