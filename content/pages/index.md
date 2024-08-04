@@ -148,7 +148,7 @@ sections:
         url: /
         showIcon: true
         icon: play
-        iconPosition: right
+        iconPosition: left
         style: primary
         elementId: ''
         type: Button
