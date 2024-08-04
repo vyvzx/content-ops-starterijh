@@ -620,7 +620,7 @@ sections:
             self:
               borderRadius: medium
         actions: []
-        colors: bg-neutral-fg-dark
+        colors: bg-dark-fg-light
         styles:
           self:
             padding:
