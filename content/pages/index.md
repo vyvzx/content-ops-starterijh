@@ -718,37 +718,6 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
-      - type: FeaturedItem
-        title: Business Consulting
-        tagline: ''
-        subtitle: Be in good company
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          type: ImageBlock
-          url: >-
-            /images/Stoic Marble Statue_ Strength and Resilience in 8K Wallpaper
-            for iPhone & Android.jpeg
-          altText: Business consulting
-          elementId: ''
-          styles:
-            self:
-              borderRadius: medium
-        actions: []
-        colors: bg-dark-fg-light
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
     variant: tabs-nav
     colors: bg-dark-fg-light
     styles:
