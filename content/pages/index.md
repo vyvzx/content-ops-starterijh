@@ -149,7 +149,7 @@ sections:
         showIcon: true
         icon: play
         iconPosition: left
-        style: primary
+        style: secondary
         elementId: ''
         type: Button
     badge:
