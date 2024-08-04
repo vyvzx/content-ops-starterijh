@@ -203,52 +203,6 @@ sections:
       subtitle:
         textAlign: center
     type: ImageGallerySection
-  - posts:
-      - content/pages/blog/case-study-1.md
-      - content/pages/blog/case-study-2.md
-      - content/pages/blog/case-study-3.md
-    showThumbnail: false
-    showDate: true
-    showAuthor: false
-    variant: three-col-grid
-    colors: bg-dark-fg-light
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
-        justifyContent: center
-    type: FeaturedPostsSection
-    hoverEffect: move-up
-    showExcerpt: false
-    elementId: >-
-      <!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta
-      name="viewport" content="width=device-width, initial-scale=1.0">   
-      <style>        /* Estilos para o elemento com o ID 'background-element'
-      */        #background-element {            width: 300px; /* Defina a
-      largura desejada */            height: 500px; /* Defina a altura desejada
-      */            background-image:
-      url('path/para/sua/imagem/border_image.png');            background-size:
-      cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento
-      */            background-repeat: no-repeat; /* Evita que a imagem se
-      repita */            background-position: center; /* Centraliza a imagem
-      */            color: white; /* Define a cor do texto */           
-      padding: 20px; /* Espaçamento interno */            box-sizing:
-      border-box; /* Inclui o padding no tamanho total do elemento */           
-      font-family: Arial, sans-serif; /* Fonte do texto */        }        /*
-      Estilo para o título */        #background-element h1 {           
-      margin-top: 0;        }        /* Estilo para o botão */       
-      #background-element a.button {            display:
-      inline-block;            margin-top: 20px;            padding: 10px
-      20px;            background-color: #007bff;            color:
-      white;            text-decoration: none;            border-radius:
-      5px;            font-weight: bold;        }    </style></head><body>   
-      <!-- Elemento que usará a imagem como plano de fundo -->    <div
-      id="background-element">        <h1>Bem-vindo!</h1>        <p>Este é um
-      exemplo de conteúdo dentro de um elemento com imagem de fundo.</p>       
-      <a href="#" class="button">Saiba mais</a>    </div></body></html>
   - title: Divider
     colors: bg-dark-fg-light
     styles:
@@ -260,54 +214,6 @@ sections:
           - pr-7
     type: DividerSection
     elementId: ''
-  - title:
-      text: Grow your business 10x faster
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: This is a subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      controls: false
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: VideoBlock
-      autoplay: true
-      loop: true
-      muted: true
-    badge:
-      label: Key Benefits
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: Badge
-    colors: bg-dark-fg-light
-    styles:
-      self:
-        flexDirection: col
-        justifyContent: center
-      subtitle:
-        textAlign: center
-    type: GenericSection
   - type: CarouselSection
     items:
       - type: FeaturedItem
@@ -371,64 +277,6 @@ sections:
     colors: bg-dark-fg-light
     styles:
       self:
-        justifyContent: center
-      subtitle:
-        textAlign: center
-  - type: ImageGallerySection
-    subtitle: Seu guerreiro interior antes
-    images:
-      - type: ImageBlock
-        url: /images/Adobe_Express_20240727_2320480_1.png
-        altText: Empathy logo
-        elementId: ''
-      - type: ImageBlock
-        url: /images/Adobe_Express_20240727_2322430_1 (2).png
-        altText: Wellster logo
-        elementId: ''
-      - type: ImageBlock
-        url: /images/Adobe_Express_20240727_2320480_1 (2).png
-        altText: Vise logo
-        elementId: ''
-      - type: ImageBlock
-        url: /images/Adobe_Express_20240727_2321500_1 (2).png
-        altText: Contentful logo
-        elementId: ''
-      - type: ImageBlock
-        url: /images/hero2.svg
-        altText: Image alt text placeholder
-        elementId: ''
-        styles:
-          self:
-            borderRadius: medium
-      - type: ImageBlock
-        url: /images/hero2.svg
-        altText: Image alt text placeholder
-        elementId: ''
-        styles:
-          self:
-            borderRadius: medium
-      - type: ImageBlock
-        url: /images/hero2.svg
-        altText: Image alt text placeholder
-        elementId: ''
-        styles:
-          self:
-            borderRadius: medium
-    elementId: 1x
-    motion: move-to-left
-    colors: bg-dark-fg-light
-    styles:
-      self:
-        margin:
-          - mt-0
-          - ml-0
-          - mb-0
-          - mr-0
-        padding:
-          - pt-0
-          - pl-0
-          - pb-0
-          - pr-0
         justifyContent: center
       subtitle:
         textAlign: center
@@ -514,63 +362,6 @@ sections:
           - pb-7
           - pr-7
     type: DividerSection
-  - type: ImageGallerySection
-    subtitle: ''
-    images:
-      - type: ImageBlock
-        url: /images/Adobe_Express_20240727_2327410_1 (2).png
-        altText: Empathy logo
-        elementId: ''
-      - type: ImageBlock
-        url: /images/Adobe_Express_20240727_2326190_1 (2).png
-        altText: Wellster logo
-        elementId: ''
-      - type: ImageBlock
-        url: /images/Adobe_Express_20240727_2325310_1 (2).png
-        altText: Vise logo
-        elementId: ''
-      - type: ImageBlock
-        url: /images/Adobe_Express_20240727_2329240_1 (2).png
-        altText: Telus logo
-        elementId: ''
-      - type: ImageBlock
-        url: /images/Adobe_Express_20240630_1635300_1.png
-        altText: Contentful logo
-        elementId: ''
-      - type: ImageBlock
-        url: /images/Adobe_Express_20240727_0509110_1~2.jpg
-        altText: Sanity logo
-        elementId: ''
-      - type: ImageBlock
-        url: /images/rangle-logo.svg
-        altText: Rangle logo
-        elementId: ''
-    elementId: ''
-    motion: move-to-left
-    colors: bg-dark-fg-light
-    styles:
-      self:
-        margin:
-          - mt-0
-          - ml-0
-          - mb-0
-          - mr-0
-        padding:
-          - pt-0
-          - pl-0
-          - pb-0
-          - pr-0
-        justifyContent: center
-      subtitle:
-        textAlign: center
-    title:
-      type: TitleBlock
-      text: Seu guerreiro interior depois
-      color: text-light
-      styles:
-        self:
-          fontWeight: 400
-          textAlign: left
   - type: CarouselSection
     items:
       - type: FeaturedItem
@@ -878,7 +669,7 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
-    variant: tabs-nav
+    variant: next-prev-nav-multiple
     colors: bg-dark-fg-light
     styles:
       self:
