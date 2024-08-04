@@ -574,8 +574,168 @@ sections:
   - type: CarouselSection
     items:
       - type: FeaturedItem
+        title: Business Consulting
+        tagline: Arraste para o lados os modulos.
+        subtitle: Be in good company
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          type: ImageBlock
+          url: /images/Adobe_Express_20240804_0110160_1.png
+          altText: Business consulting
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-dark-fg-light
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+      - type: FeaturedItem
+        title: Business Consulting
+        tagline: ''
+        subtitle: Be in good company
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          type: ImageBlock
+          url: /images/Adobe_Express_20240804_0109500_1.png
+          altText: Business consulting
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-dark-fg-light
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+      - type: FeaturedItem
+        title: Business Consulting
+        tagline: ''
+        subtitle: Be in good company
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          type: ImageBlock
+          url: /images/Adobe_Express_20240804_0108340_1.png
+          altText: Business consulting
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-dark-fg-light
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+      - type: FeaturedItem
+        title: Business Consulting
+        tagline: ''
+        subtitle: Be in good company
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          type: ImageBlock
+          url: /images/IMG_20240804_003430_022.jpg
+          altText: Business consulting
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-dark-fg-light
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+      - type: FeaturedItem
+        title: Business Consulting
+        tagline: ''
+        subtitle: Be in good company
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          type: ImageBlock
+          url: /images/Adobe_Express_20240804_0109010_1.png
+          altText: Business consulting
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-dark-fg-light
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+    variant: tabs-nav
+    colors: bg-dark-fg-light
+    styles:
+      self:
+        justifyContent: center
+        padding:
+          - pt-1
+      subtitle:
+        textAlign: center
+    badge:
+      type: Badge
+      label: This is a badge
+      color: text-primary
+  - type: CarouselSection
+    items:
+      - type: FeaturedItem
         title: Social Media Management
-        tagline: Arraste para o lado
+        tagline: Feature 1
         subtitle: Increase your reach
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -583,13 +743,13 @@ sections:
           explicabo.
         image:
           type: ImageBlock
-          url: /images/Adobe_Express_20240727_0509110_1~2.jpg
+          url: /images/Adobe_Express_20240804_0113580_1.png
           altText: Featured item
           styles:
             self:
               borderRadius: medium
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-dark-fg-light
         styles:
           self:
             padding:
@@ -603,7 +763,7 @@ sections:
             justifyContent: center
       - type: FeaturedItem
         title: Business Consulting
-        tagline: Modulo 2
+        tagline: Feature 2
         subtitle: Be in good company
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -611,9 +771,37 @@ sections:
           explicabo.
         image:
           type: ImageBlock
-          url: >-
-            /images/Stoic Marble Statue_ Strength and Resilience in 8K Wallpaper
-            for iPhone & Android (2).jpeg
+          url: /images/3e5b76918fabdf528a9e35b71fa2f429 (1).jpg
+          altText: Business consulting
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-dark-fg-light
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+        elementId: ''
+      - type: FeaturedItem
+        title: Business Consulting
+        tagline: Feature 2
+        subtitle: Be in good company
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          type: ImageBlock
+          url: /images/Adobe_Express_20240804_0111260_1.png
           altText: Business consulting
           elementId: ''
           styles:
@@ -634,7 +822,7 @@ sections:
             justifyContent: center
       - type: FeaturedItem
         title: Business Consulting
-        tagline: ''
+        tagline: Feature 2
         subtitle: Be in good company
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -642,7 +830,7 @@ sections:
           explicabo.
         image:
           type: ImageBlock
-          url: /images/baixados (9).jpeg
+          url: /images/Adobe_Express_20240727_0509110_1~2.jpg
           altText: Business consulting
           elementId: ''
           styles:
@@ -663,7 +851,7 @@ sections:
             justifyContent: center
       - type: FeaturedItem
         title: Business Consulting
-        tagline: ''
+        tagline: Feature 2
         subtitle: Be in good company
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -671,9 +859,7 @@ sections:
           explicabo.
         image:
           type: ImageBlock
-          url: >-
-            /images/Stoic Marble Statue_ Strength and Resilience in 8K Wallpaper
-            for iPhone & Android.jpeg
+          url: /images/3fe39a7d53248b60356d95dba587c61a (2).jpg
           altText: Business consulting
           elementId: ''
           styles:
@@ -699,18 +885,6 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-    badge:
-      type: Badge
-      label: This is a badge
-      color: text-primary
-    backgroundImage:
-      type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: auto
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 100
-      url: /images/photo_2024-08-04_02-38-36.jpg
   - type: CarouselSection
     title: null
     subtitle: What our customers say about us
@@ -1134,5 +1308,5 @@ seo:
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
-isDraft: false
+isDraft: true
 ---
