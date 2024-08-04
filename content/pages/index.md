@@ -146,7 +146,7 @@ sections:
       - label: Get started
         altText: ''
         url: /
-        showIcon: false
+        showIcon: true
         icon: play
         iconPosition: left
         style: primary
