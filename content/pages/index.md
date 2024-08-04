@@ -611,7 +611,9 @@ sections:
           explicabo.
         image:
           type: ImageBlock
-          url: /images/Adobe_Express_20240727_0509110_1~2.jpg
+          url: >-
+            /images/Stoic Marble Statue_ Strength and Resilience in 8K Wallpaper
+            for iPhone & Android (2).jpeg
           altText: Business consulting
           elementId: ''
           styles:
