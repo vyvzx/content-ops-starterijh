@@ -733,6 +733,10 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
+    badge:
+      type: Badge
+      label: This is a badge
+      color: text-primary
   - type: CarouselSection
     title: null
     subtitle: What our customers say about us
