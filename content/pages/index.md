@@ -146,10 +146,10 @@ sections:
       - label: Get started
         altText: ''
         url: /
-        showIcon: false
+        showIcon: true
         icon: arrowRight
-        iconPosition: right
-        style: primary
+        iconPosition: left
+        style: secondary
         elementId: ''
         type: Button
     badge:
@@ -223,6 +223,32 @@ sections:
     type: FeaturedPostsSection
     hoverEffect: move-up
     showExcerpt: false
+    elementId: >-
+      <!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta
+      name="viewport" content="width=device-width, initial-scale=1.0">   
+      <style>        /* Estilos para o elemento com o ID 'background-element'
+      */        #background-element {            width: 300px; /* Defina a
+      largura desejada */            height: 500px; /* Defina a altura desejada
+      */            background-image:
+      url('path/para/sua/imagem/border_image.png');            background-size:
+      cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento
+      */            background-repeat: no-repeat; /* Evita que a imagem se
+      repita */            background-position: center; /* Centraliza a imagem
+      */            color: white; /* Define a cor do texto */           
+      padding: 20px; /* Espaçamento interno */            box-sizing:
+      border-box; /* Inclui o padding no tamanho total do elemento */           
+      font-family: Arial, sans-serif; /* Fonte do texto */        }        /*
+      Estilo para o título */        #background-element h1 {           
+      margin-top: 0;        }        /* Estilo para o botão */       
+      #background-element a.button {            display:
+      inline-block;            margin-top: 20px;            padding: 10px
+      20px;            background-color: #007bff;            color:
+      white;            text-decoration: none;            border-radius:
+      5px;            font-weight: bold;        }    </style></head><body>   
+      <!-- Elemento que usará a imagem como plano de fundo -->    <div
+      id="background-element">        <h1>Bem-vindo!</h1>        <p>Este é um
+      exemplo de conteúdo dentro de um elemento com imagem de fundo.</p>       
+      <a href="#" class="button">Saiba mais</a>    </div></body></html>
   - title: Divider
     colors: bg-dark-fg-light
     styles:
@@ -233,6 +259,7 @@ sections:
           - pb-7
           - pr-7
     type: DividerSection
+    elementId: ''
   - title:
       text: Grow your business 10x faster
       color: text-dark
@@ -584,7 +611,9 @@ sections:
           explicabo.
         image:
           type: ImageBlock
-          url: /images/Adobe_Express_20240727_0509110_1~2.jpg
+          url: >-
+            /images/Stoic Marble Statue_ Strength and Resilience in 8K Wallpaper
+            for iPhone & Android (2).jpeg
           altText: Business consulting
           elementId: ''
           styles:
@@ -603,6 +632,106 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
+      - type: FeaturedItem
+        title: Business Consulting
+        tagline: Feature 2
+        subtitle: Be in good company
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          type: ImageBlock
+          url: >-
+            /images/'Marcus Aurelius Sculpture' Metal Poster by Vars _
+            Displate.jpeg
+          altText: Business consulting
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions:
+          - type: Button
+            label: Get started
+            altText: ''
+            url: /
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+        colors: bg-dark-fg-light
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+      - type: FeaturedItem
+        title: Business Consulting
+        tagline: Feature 2
+        subtitle: Be in good company
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          type: ImageBlock
+          url: /images/baixados (9).jpeg
+          altText: Business consulting
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-dark-fg-light
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+      - type: FeaturedItem
+        title: Business Consulting
+        tagline: Feature 2
+        subtitle: Be in good company
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          type: ImageBlock
+          url: >-
+            /images/Stoic Marble Statue_ Strength and Resilience in 8K Wallpaper
+            for iPhone & Android.jpeg
+          altText: Business consulting
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-dark-fg-light
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
     variant: tabs-nav
     colors: bg-dark-fg-light
     styles:
@@ -610,6 +739,10 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
+    badge:
+      type: Badge
+      label: This is a badge
+      color: text-primary
   - type: CarouselSection
     title: null
     subtitle: What our customers say about us
@@ -753,7 +886,7 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
-    elementId: null
+    elementId: ''
     variant: next-prev-nav-multiple
     colors: bg-dark-fg-light
     styles:
