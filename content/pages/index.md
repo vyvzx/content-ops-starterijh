@@ -769,7 +769,7 @@ sections:
           explicabo.
         image:
           type: ImageBlock
-          url: /images/57a88cae4258aa0e4dd2bf66a26e09b3 (1).jpg
+          url: /images/3e5b76918fabdf528a9e35b71fa2f429 (1).jpg
           altText: Business consulting
           elementId: ''
           styles:
