@@ -575,7 +575,7 @@ sections:
     items:
       - type: FeaturedItem
         title: Social Media Management
-        tagline: Modulo 1
+        tagline: Arraste para o lado
         subtitle: Increase your reach
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -603,7 +603,7 @@ sections:
             justifyContent: center
       - type: FeaturedItem
         title: Business Consulting
-        tagline: Modulo 2.
+        tagline: Modulo 2
         subtitle: Be in good company
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -620,46 +620,6 @@ sections:
             self:
               borderRadius: medium
         actions: []
-        colors: bg-neutral-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-      - type: FeaturedItem
-        title: Business Consulting
-        tagline: Feature 2
-        subtitle: Be in good company
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          type: ImageBlock
-          url: >-
-            /images/'Marcus Aurelius Sculpture' Metal Poster by Vars _
-            Displate.jpeg
-          altText: Business consulting
-          elementId: ''
-          styles:
-            self:
-              borderRadius: medium
-        actions:
-          - type: Button
-            label: Get started
-            altText: ''
-            url: /
-            showIcon: false
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
         colors: bg-dark-fg-light
         styles:
           self:
@@ -674,7 +634,7 @@ sections:
             justifyContent: center
       - type: FeaturedItem
         title: Business Consulting
-        tagline: Feature 2
+        tagline: ''
         subtitle: Be in good company
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -703,7 +663,7 @@ sections:
             justifyContent: center
       - type: FeaturedItem
         title: Business Consulting
-        tagline: Feature 2
+        tagline: ''
         subtitle: Be in good company
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -743,6 +703,14 @@ sections:
       type: Badge
       label: This is a badge
       color: text-primary
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 100
+      url: /images/photo_2024-08-04_02-38-36.jpg
   - type: CarouselSection
     title: null
     subtitle: What our customers say about us
@@ -894,14 +862,6 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-    backgroundImage:
-      type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: auto
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 100
-      url: /images/photo_2024-07-30_02-42-24.jpg
   - title:
       text: List of features here
       color: text-primary
