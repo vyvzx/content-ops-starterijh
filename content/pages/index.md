@@ -731,17 +731,6 @@ sections:
       type: Badge
       label: This is a badge
       color: text-primary
-  - type: DividerSection
-    title: Divider
-    elementId: ''
-    colors: bg-dark-fg-light
-    styles:
-      self:
-        padding:
-          - pt-20
-          - pl-20
-          - pb-20
-          - pr-20
   - type: CarouselSection
     items:
       - type: FeaturedItem
