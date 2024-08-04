@@ -680,7 +680,7 @@ sections:
           explicabo.
         image:
           type: ImageBlock
-          url: /images/baixados (10).jpeg
+          url: /images/baixados (9).jpeg
           altText: Business consulting
           elementId: ''
           styles:
