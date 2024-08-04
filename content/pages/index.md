@@ -849,7 +849,7 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
-        elementId: ''
+        elementId: ']'
       - type: FeaturedItem
         title: Business Consulting
         tagline: Feature 2
