@@ -741,7 +741,7 @@ sections:
           explicabo.
         image:
           type: ImageBlock
-          url: /images/img-placeholder.svg
+          url: /images/Adobe_Express_20240804_0113580_1.png
           altText: Featured item
           styles:
             self:
